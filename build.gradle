@@ -93,6 +93,14 @@ task copyDocument(type: Copy) {
     into file("src/main/resources/static/docs")
 }
 
+task copyPrivate(type: Copy) {
+    copy {
+        from './CO-MEN-PRIVATE'
+        include "*.yml"
+        into 'src/main/resources'
+    }
+}
+
 bootJar {
     dependsOn copyDocument
 }

@@ -1,0 +1,3 @@
+[submodule "CO-MEN-PRIVATE"]
+	path = CO-MEN-PRIVATE
+	url = git@github.com:f-lab-edu/CO-MEN-PRIVATE.git
